@@ -64,7 +64,7 @@ function començarPerHora() {
 }
 
 soSelect.addEventListener('change', function () {
-  selectedSound = document.getElementById(soSelect.value); // Selecciona el so correctament
+  selectedSound = document.getElementById(soSelect.value);
 });
 
 function sonarSo() {
