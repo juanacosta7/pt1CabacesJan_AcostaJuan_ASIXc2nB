@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-color: deepskyblue;
+  }
+  
+  h1 {
+    font-size: 2em;
+    color: darkcyan; 
+    background-color: white; 
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid white; 
+    border-radius: 10px;
+  }
+  
+  #ruletaCanvas {
+    margin: 20px auto;
+    display: block;
+    border: 4px solid black;
+    border-radius: 50%;
+  }
+  
+  #nom-seleccionat {
+    margin-top: 20px;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    background-color: gold; 
+    border: 2px solid white; 
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 10px;
+  }
+  
+  button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: lightcyan;
+    color: black;
+  }
+  
+  button:hover {
+    background-color: dodgerblue;
+  }
+  

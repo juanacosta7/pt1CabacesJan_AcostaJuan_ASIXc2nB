@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Temporitzador de Tasca</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Temporitzador de Tasca</h1>
+    
+    <div id="hora-actual">
+      <p>Hora Actual: <span id="hora-actual-display"></span></p>
+    </div>
+    
+    <div class="form-container">
+      <label for="temps-falta">Temps que falta (hh:mm:ss):</label>
+      <input type="time" id="temps-falta" step="1" value="00:00:00">
+      <button id="començar">Començar</button>
+    </div>
+
+    <div class="form-container">
+      <label for="hora-finalitzacio">Hora de finalització (hh:mm):</label>
+      <input type="time" id="hora-finalitzacio">
+      <button id="començar-hora">Començar Hora</button>
+    </div>
+
+    <div id="temporal">
+      <p>Temps restant: <span id="contador"></span></p>
+    </div>
+
+    <div id="so-options">
+      <label for="so">Tria el so per acabar la tasca:</label>
+      <select id="so">
+        <option value="sound1">So 1</option>
+        <option value="sound2">So 2</option>
+        <option value="sound3">So 3</option>
+      </select>
+    </div>
+  </div>
+
+  <audio id="sound1" src="./juan.mp3"></audio>
+  <audio id="sound2" src="./hola.mp3"></audio>
+  <audio id="sound3" src="./cr7.mp3"></audio>
+
+  <script src="code.js"></script>
+</body>
+</html>
+
